@@ -19,7 +19,11 @@ export const businessColumns = [
     headerName: "Country",
     width: 100,
   },
-  
+  {
+    field: "status",
+    headerName: "Status",
+    width: 150,
+  }
 ];
 
 export const orderColumns = [
