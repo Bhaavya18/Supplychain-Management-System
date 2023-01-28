@@ -268,13 +268,18 @@ export default function Order() {
  const handleSubmit = async () => {
       const productName = getName();
       try {
+          // const url = 'http://localhost:12345/predict'
+          // const predictPrice=await axios.post(url,[{
+          //   Quantity: 20, Volume: 34, Distance:5643.1
+          // }])
+          
           const res = await axios.post(`/order/${businessObj.business._id}`, {
               from: `${data.name}`,
               to: `${destination}`,
               commodityName: `${productName}`,
               qty: `${qty}`,
               volume: `${volume}`,
-              price: "20000"
+              price: "20000",
           });
     } catch (err) {
         throw (err);

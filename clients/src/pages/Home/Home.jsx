@@ -5,9 +5,9 @@ import useFetch from "../../components/hooks/useFetch";
 import styles from "./Home.module.css";
 import { useNavigate } from "react-router-dom";
 export function Home() {
-    const { data, loading, error } = useFetch("/business/warehouse/63d40782005feffa8136ce13");
-    const orderObj = useFetch("/business/order/63d40782005feffa8136ce13");
     const businessObj = useContext(AuthContext);
+    const { data, loading, error } = useFetch(`/business/warehouse/${businessObj.business._id}`);
+    const orderObj = useFetch(`/business/order/${businessObj.business._id}`);
     const navigate = useNavigate();
     return (
       <div>  
