@@ -1,0 +1,32 @@
+.box .submit{
+    border: none;
+    border-radius: 5px;
+    background-color: #4169e1;
+    color: white;
+    padding: 7px;
+    margin-top: 2rem;
+    font-size: inherit;
+    width: 362px;
+}
+.heading{
+    text-align: center;
+}
+.box{
+    border:1px solid;
+    margin-left:auto;
+    margin-right:auto;
+    width:30%;
+    padding:20px;
+    margin-top:5%;
+}
+.box form{
+    width:100%;
+}
+.box form input{
+    display:block;
+    padding:5px;
+    width:350px;
+    margin-top:20px;
+    margin-bottom:20px;
+    font-size:1.1rem;
+}

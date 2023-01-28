@@ -1,0 +1,24 @@
+.title_warehouse{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    width:100%;
+    color: #000000;
+    border:solid 1px;
+    border-width:0px 0px 1px 0px;
+}
+.country{
+    position: relative;
+    width: 70px;
+    height: 40px;
+    left: 30px;
+    top: 200px;
+    padding-left: 30px;
+    padding-top: 15px;
+    background: #D9D9D9;
+    border-radius: 5px;
+    font-size: large;
+    display: inline-block;
+    margin-left: 10px;
+}
