@@ -16,15 +16,15 @@ const OrderSchema = new mongoose.Schema({
       type: String,
       required:true,
   },
-  "commodityName": {
+  commodityName: {
       type: String,
       required:true,
    },
-  "status": {
+  status: {
       type: String,
       default:"processing"
   },
-  "volume": {
+  volume: {
       type: Number,
       required:true,
   }
