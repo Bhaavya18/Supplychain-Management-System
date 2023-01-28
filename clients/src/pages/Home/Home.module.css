@@ -3,22 +3,39 @@
     font-style: normal;
     font-weight: 500;
     font-size: 26px;
-    width:100%;
     color: #000000;
     border:solid 1px;
     border-width:0px 0px 1px 0px;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 .country{
-    position: relative;
-    width: 70px;
-    height: 40px;
-    left: 30px;
-    top: 200px;
-    padding-left: 30px;
-    padding-top: 15px;
     background: #D9D9D9;
     border-radius: 5px;
-    font-size: large;
+    font-size: 1.1rem;
     display: inline-block;
-    margin-left: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.countryBox{
+    padding:20px;
+}
+.order{
+    margin-left: 20px;
+    background-color: #D9D9D9;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 500px;
+}
+.btn{
+    padding: 10px;
+    background-color: #4169e1;
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: none;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    box-shadow:0px 4px 4px rgba(0,0,0,0.25);
 }

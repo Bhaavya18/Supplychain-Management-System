@@ -1,15 +1,20 @@
 .homeBar {
   background-color: #5072a7;
-  padding: 6px;
+  padding: 10px;
   text-align: right;
 }
 .homeBar button{
-  background-color: #e1bfb4;
+  background-color: white;
   color: black;
   width: 5rem;
-  padding: 6px;
+  padding: 7px;
   border: none;
   border-radius: 5px;
   font-family: inherit;
   font-size: 1rem;
+}
+.homeBar p{
+  display: inline;
+  margin-right: 1200px;
+  color: white;
 }
